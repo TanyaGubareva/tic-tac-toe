@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Крестики и нолики</title>
+  </head>
+  <body>
+  <h1>Крестики и нолики</h1>
+  <h3>Сейчас ходит <strong id='player'></strong></h3>
+  <div class='play'>
+    <div>
+      <button class='click' id='1' onclick="play(this)" > </button>
+      <button class='click' id='2' onclick="play(this)"></button>
+      <button class='click' id='3' onclick='play(this)'></button>
+      <div class='break'></div>
+      <button class='click' id='4' onclick="play(this)"></button>
+      <button class='click' id='5' onclick="play(this)"></button>
+      <button class='click' id='6' onclick="play(this)"></button>
+      <div class='break'></div>
+      <button class='click' id='7' onclick="play(this)"></button>
+      <button class='click' id='8'onclick="play(this)"></button>
+      <button class='click' id='9' onclick="play(this)"></button>
+    </div>
+  </div>
+  
+  <div><button type='submit' class='refresh' onclick="refreshPage()">Играть заново</button></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

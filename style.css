@@ -1,0 +1,51 @@
+.play {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.click {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.refresh {
+  display: block;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  background-color: #0d8aee;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  width: 200px;
+  padding: 4px 0;
+  text-align: center;
+
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 3px;
+}
